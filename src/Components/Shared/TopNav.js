@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const TopNav = () => {
   return (
     <div className=' text-white py-2 border-b-[1px] text-sm font-medium md:block hidden bg-stone-900 '>
-      <div className='xl:w-[70%] lg:w-[80%] md:w-[85%] sm:w-[90%] mx-auto  flex items-center justify-between'>
+      <div className=' 2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto  flex items-center justify-between'>
         <div className=' flex items-center justify-center gap-3'>
           <div className=' flex items-center justify-center gap-3 border-r-[1px] pr-2'>
             <FontAwesomeIcon icon={faPhone} className='text-red-500' />
