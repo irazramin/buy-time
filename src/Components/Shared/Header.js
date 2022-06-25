@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <>
       <nav class='relative w-full flex flex-wrap items-center justify-between py-[10px] bg-white text-stone-900 shadow-sm navbar navbar-expand-lg navbar-light'>
-        <div class=' 2xl:w-[65%] md:w-[85%] sm:w-[90%] md:mx-auto   flex flex-wrap items-center justify-between px-6'>
+        <div class=' 2xl:w-[65%] md:w-[85%] sm:w-[90%] md:mx-auto   flex flex-wrap items-center justify-between '>
           <button
             class='navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline'
             type='button'
@@ -34,7 +34,7 @@ const Header = () => {
             id='navbarSupportedContent1'
           >
             <a class='text-xl  pr-2 font-semibold' href='#'>
-              Navbar
+              BuyTime
             </a>
             <ul class='navbar-nav flex flex-col pl-0 list-style-none mr-auto'>
               <li class='nav-item p-2'>
@@ -66,7 +66,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <div class='flex items-center justify-end lg:relative lg:top-0 fixed  top-5 right-0'>
+          <div class='flex items-center justify-end lg:relative lg:top-0 sticky  top-5 right-0'>
             <div class='dropdown relative'>
               <a
                 class=' hover:opacity-80 focus:opacity-80 mr-4 dropdown-toggle hidden-arrow flex items-center'
