@@ -14,9 +14,12 @@ const Products = () => {
     },[]);
 
   return (
-    <div className='grid lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1 mx-2 lg:mx-0'>
-        {products.map((product,idx) => <Product  product={product}/>)}
-    </div>
+   <>
+       <h2 className='my-5 font-bold text-3xl'>Latest Products</h2>
+       <div className='grid xl:grid-cols-4 lg:grid-cols-3 gap-x-4 gap-y-6 md:grid-cols-2 grid-cols-1 mx-2 lg:mx-0'>
+           {products.map((product,idx) => <Product  product={product}/>)}
+       </div>
+   </>
   )
 }
 

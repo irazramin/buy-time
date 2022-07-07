@@ -1,0 +1,8 @@
+.show-panel .panel-items{
+    transform: translateY(100px);
+    transition: transform .5s ease-in-out;
+}
+
+.show-panel:hover .panel-items{
+    transform: translateY(-20px);
+}
