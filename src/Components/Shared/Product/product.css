@@ -1,8 +1,19 @@
 .show-panel .panel-items{
-    transform: translateY(100px);
+    transform: translateY(-20px);
     transition: transform .5s ease-in-out;
 }
 
 .show-panel:hover .panel-items{
-    transform: translateY(-20px);
+    transform: translateY(0px);
+}
+
+@media  screen and (min-width:768px) {
+    .show-panel .panel-items{
+        transform: translateY(100px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .show-panel:hover .panel-items{
+        transform: translateY(-20px);
+    }
 }

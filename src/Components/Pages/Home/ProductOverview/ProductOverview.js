@@ -3,7 +3,7 @@ import React from 'react';
 const ProductOverview = () => {
     return (
         <section className='2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto mt-[200px]'>
-           <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5'>
+           <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mx-2'>
                <div className='shadow p-5 flex justify-center items-center gap-5'>
                    <div>
                        <h2 className='text-2xl font-semibold text-red-700'>Leather</h2>

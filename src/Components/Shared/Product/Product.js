@@ -16,8 +16,8 @@ const Product = ({product}) => {
     }
   return (
     <article className=' w-full cursor-pointer'>
-        <div className='border-[1px] h-[380px] p-4 relative overflow-hidden '>
-            <img className='w-full object-cover h-full' src={img} alt="" />
+        <div className='border-[1px] h-[380px] flex items-center justify-center p-4 relative overflow-hidden '>
+            <img className='w-full object-cover  ' src={img} alt="" />
             <div className=' w-full h-full absolute left-0 top-0 show-panel text-center hover:bg-[rgba(255,255,255,.4)]'>
               <div className='absolute bottom-0 panel-items  w-full'>
                   <div className='w-full mx-auto'>
