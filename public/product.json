@@ -1,75 +1,374 @@
 [
   {
-    "name": "Davosa Swiss Watches",
-    "price": 300,
+    "name": "1775YL01",
+    "price": 6850,
     "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+    "img": "https://timezonebd.com/uploads/products/1775YL01.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"TITAN",
+    "color":"Gray",
+    "bracelet":"Leather",
+    "gender":"Male",
+    "stoke":"Stock Out",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+
+
+  {
+    "name": "1729SM03",
+    "price": 5450,
+    "rating": 4.0,
+    "img": "https://timezonebd.com/uploads/products/1729SM01.jpg",
+    "img2":"https://timezonebd.com/uploads/products/1729SM02.jpg",
+    "img3":"https://timezonebd.com/uploads/products/1729SM03.jpg",
+    "brand":"TITAN",
+    "color":"Silver",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
+    "desc": "Quartz movement for constant and accurate timing. Not only is this one of the most precise watches you’ll ever own, it’s ultra quiet and super low maintenance."
+  },
+
+  {
+    "name": "1584SM03",
+    "price": 11970,
+    "rating": 4.4,
+    "img": "https://timezonebd.com/uploads/products/1584SM03.jpg",
+    "img2":"https://timezonebd.com/uploads/products/1584SM04.jpg",
+    "img3":"",
+    "brand":"TITAN",
+    "color":"Silver",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"Sold Out",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+
+  {
+    "name": "2608SL01",
+    "price": 6850,
+    "rating": 4.6,
+    "img": "https://timezonebd.com/uploads/products/2608SL01.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"TITAN",
+    "color":"BLUE-SILVER",
+    "bracelet":"Leather",
+    "gender":"Female",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+
+  {
+    "name": "68010SM01",
+    "price": 3300,
+    "rating": 3.6,
+    "img": "https://timezonebd.com/uploads/products/68010SM01.jpg",
+    "img2":"https://timezonebd.com/uploads/products/68010SL03.jpg",
+    "img3":"https://timezonebd.com/uploads/products/68010SM04.jpg",
+    "brand":"TITAN",
+    "color":"SILVER/BLUE/BLACK",
+    "bracelet":"Leather",
+    "gender":"Female",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
+  },
+
+  {
+    "name": "MTP-1381D-7AVDF",
+    "price": 7350,
     "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+    "img": "https://timezonebd.com/uploads/products/MTP-1300D-7A1VDF.jpg",
+    "img2":"https://timezonebd.com/uploads/products/MTP-1300D-1AVDF.jpg",
+    "img3":"https://timezonebd.com/uploads/products/MTP-1381D-7AV.jpg",
+    "brand":"CASIO",
+    "color":"White",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+  {
+    "name": "MTP-VT01D-2BUDF",
+    "price": 7450,
+    "rating": 4.2,
+    "img": "https://timezonebd.com/uploads/products/MTP-VT01D-2BUDF.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"CASIO",
+    "color":"Silver",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+  {
+    "name": "GA-2100-1ADR BK",
+    "price": 11970,
+    "rating": 3.9,
+    "img": "https://timezonebd.com/uploads/products/GA-2100-1ADR.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"CASIO",
+    "color":"Black",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+  {
+    "name": "GA-2100-1ADR BK",
+    "price": 8600,
+    "rating": 4.6,
+    "img": "https://timezonebd.com/uploads/products/LTP-1302SG-7AVDF.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"CASIO",
+    "color":"GOLDEN-SILVER",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+  {
+    "name": "LTP-E134D-7BVDF",
+    "price":  6560,
+    "rating": 4.2,
+    "img": "https://timezonebd.com/uploads/products/LTP-E134D-7BVDF.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"CASIO",
+    "color":"SILVER",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+
+
+  {
+    "name": "CL8077TM ST WH LT",
+    "price": 5710,
+    "rating": 4.4,
+    "img": "https://timezonebd.com/uploads/products/CL8077TMSTWHLT.jpg",
+    "img2":"https://timezonebd.com/uploads/products/CL8077TMSTBKLT.jpg",
+    "img3":"https://timezonebd.com/uploads/products/CL8077TMSTBLLT.jpg",
+    "brand":"CELLOX",
+    "color":"SILVER/BLACK/BLUE",
+    "bracelet":"Leather",
+    "gender":"Male",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
-    "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+  },
+  {
+    "name": " CL595ZF ST WH MT",
+    "price": 5250,
+    "rating": 3.8,
+    "img": "https://timezonebd.com/uploads/products/CL595ZF2RWHMT.jpg",
+    "img2":"https://timezonebd.com/uploads/products/CL595ZFSTBKMT.jpg",
+    "img3":"https://timezonebd.com/uploads/products/CL595ZFSTWHMT.jpg",
+    "brand":"CELLOX",
+    "color":"SILVER/BLACK/GOLDEN",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"Sold Out",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },{
-    "name": "Davosa Swiss Watches",
-    "price": 300,
+  },
+  {
+    "name": "CL8075TM ST WH MT",
+    "price": 6500,
+    "rating": 4.9,
+    "img": "https://timezonebd.com/uploads/products/CL8075TMSTBKMT.jpg",
+    "img2":"https://timezonebd.com/uploads/products/CL8075TMSTWHMT.jpg",
+    "img3":"",
+    "brand":"CELLOX",
+    "color":"SILVER/BLACK",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "CL590ZF 2R WH MT",
+    "price": 4960,
     "rating": 4.5,
-    "img": "https://otherplanet.photo/wp-content/uploads/2018/02/packshot-of-two-davosa-swiss-watches.jpg",
+    "img": "https://timezonebd.com/uploads/products/CL590ZF2RWHMT.jpg",
+    "img2":"https://timezonebd.com/uploads/products/CL590ZFSTBKMT.jpg",
+    "img3":"https://timezonebd.com/uploads/products/CL590ZFSTWHMT.jpg",
+    "brand":"CELLOX",
+    "color":"SILVER/ROSE GOLD/BLACK",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"Sold Out",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "CL584ZF 2R BK MT",
+    "price":  5960,
+    "rating": 4.8,
+    "img": "https://timezonebd.com/uploads/products/CL584ZFRGBKMT.jpg",
+    "img2":"https://timezonebd.com/uploads/products/CL584ZFRGBLMT.jpg",
+    "img3":"",
+    "brand":"CELLOX",
+    "color":"BLUE/ROSE GOLD",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "name": "GA802012.WBW ST BK MT",
+    "price": 28190,
+    "rating": 4.0,
+    "img": "https://timezonebd.com/uploads/products/GA802012.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"FIYTA",
+    "color":"SILVER",
+    "bracelet":"Leather",
+    "gender":"Male",
+    "stoke":"available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "WGA1010.WBW ST BK MT",
+    "price": 23400,
+    "rating": 4.8,
+    "img": "https://timezonebd.com/uploads/products/WGA1010.WBW.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"FIYTA",
+    "color":"SILVER",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"Available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "GA860012.BBB BK BK LT",
+    "price": 47930,
+    "rating": 4.1,
+    "img": "https://timezonebd.com/uploads/products/GA860012.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"FIYTA",
+    "color":"SILVER/BLACK",
+    "bracelet":"Leather",
+    "gender":"Male",
+    "stoke":"Sold Out",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "CL590ZF 2R WH MT",
+    "price": 20350,
+    "rating": 4.7,
+    "img": "https://timezonebd.com/uploads/products/M800011.MWM.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"FIYTA",
+    "color":"SILVER-ROSE GOLD",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"Available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "L802068.WWB ST WH LT",
+    "price":  16750,
+    "rating": 4.3,
+    "img": "https://timezonebd.com/uploads/products/L802068.WWB.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"FIYTA",
+    "color":"Black",
+    "bracelet":"Leather",
+    "gender":"Female",
+    "stoke":"available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+
+
+
+
+  {
+    "name": "SKS541P1 2T WH MT",
+    "price": 21320,
+    "rating": 4.3,
+    "img": "https://timezonebd.com/uploads/products/SKS541P1.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"SEIKO",
+    "color":"White",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "SSB371P1 BR BR LT",
+    "price": 31340,
+    "rating": 4.7,
+    "img": "https://timezonebd.com/uploads/products/SSB371P1.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"SEIKO",
+    "color":"Black",
+    "bracelet":"Leather",
+    "gender":"Male",
+    "stoke":"Available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "SKS537P1 ST BL MT",
+    "price": 18590,
+    "rating": 3.5,
+    "img": "https://timezonebd.com/uploads/products/SKS537P1.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"SEIKO",
+    "color":"Blue",
+    "bracelet":"Metal",
+    "gender":"Male",
+    "stoke":"Available",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "SXDG61P1 ST WH MT",
+    "price": 20110,
+    "rating": 4.7,
+    "img": "https://timezonebd.com/uploads/products/SXDG61P1.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"SEIKO",
+    "color":"SILVER",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"Sold Out",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "name": "SUR660P1 GP WH MT",
+    "price":  17900,
+    "rating": 4.3,
+    "img": "https://timezonebd.com/uploads/products/SUR660P1.jpg",
+    "img2":"",
+    "img3":"",
+    "brand":"SEIKO",
+    "color":"Golden",
+    "bracelet":"Metal",
+    "gender":"Female",
+    "stoke":"available",
     "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
   }
 ]

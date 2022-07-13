@@ -8,17 +8,16 @@ const Categories = () => {
 
   const [minValue, setMinValue] = useState(25);
   const [maxValue, setMaxValue] = useState(75);
-  const [colp,setColp]  = useState(false)
   const [products,setProducts] = useState([]);
 
-
   useEffect(() =>{
-    fetch(`product.json`)
+    fetch(`http://localhost:5000/api/watches`)
         .then(res => res.json())
         .then(data => {
           setProducts(data)
         })
   },[]);
+
   return (
     <div >
      <div className='2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto'>
@@ -29,7 +28,6 @@ const Categories = () => {
                <h2 className='text-lg font-semibold '>Categories</h2>
                <button data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
                        aria-controls="collapseExample">
-
                  <FontAwesomeIcon icon={faPlus}/>
                </button>
              </div>
@@ -170,7 +168,7 @@ const Categories = () => {
          </div>
 
 
-         <div className='col-span-6 md:col-span-9 shadow-lg'>
+         <div className='col-span-6 md:col-span-9 shadow'>
            <div className='px-3 py-2'>
              <div className='flex justify-between items-center bg-red-700 py-1 px-2 text-white'>
                <h2 className='text-lg font-semibold '>Categories Items</h2>
@@ -178,7 +176,7 @@ const Categories = () => {
 
              <div>
                <div className='grid  lg:grid-cols-3 gap-x-4 gap-y-6 md:grid-cols-2 grid-cols-1  lg:mx-0'>
-                 {products.map((product, idx) => <Product product={product}/>)}
+                 {products.map((product, idx) => <Product key={product._id} product={product}/>)}
                </div>
              </div>
            </div>

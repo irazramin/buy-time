@@ -5,6 +5,7 @@ import Home from './Components/Pages/Home/Home';
 import Header from './Components/Shared/Header';
 import SearchBar from './Components/Shared/SearchBar';
 import TopNav from './Components/Shared/TopNav';
+import ProductDetails from "./Components/Shared/Product/productDetails/ProductDetails";
 function App() {
   return (
     <div className="">
@@ -14,6 +15,9 @@ function App() {
         <Routes>
           <Route path='/'  element={<Home/>}/>
           <Route path='/categories'  element={<Categories/>}/>
+          <Route path='/productDetails/:id'  element={<ProductDetails/>}/>
+          {/* <Route path='productDetails/:id'  element={<ProductDetails/>}/> */}
+
         </Routes>
     </div>
   );
