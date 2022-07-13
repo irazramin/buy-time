@@ -1,18 +1,25 @@
 import React, {useEffect, useState} from 'react'
+import useProduct from '../../../hooks/useProduct';
+import Loading from '../Loading';
 import Product from "./Product";
-
+import { useQuery } from 'react-query';
 const Products = () => {
-    const [products,setProducts] = useState([]);
+    // const [products,setProducts] = useState([]);
 
 
-    useEffect(() =>{
-        fetch(`http://localhost:5000/api/watches`)
-            .then(res => res.json())
-            .then(data => {
-                setProducts(data)
-            })
-    },[]);
+    // useEffect(() =>{
+    //     fetch(`http://localhost:5000/api/watches`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setProducts(data)
+    //         })
+    // },[]);
 
+    const {products,isLoading} = useProduct()
+
+    if(isLoading){
+        return <Loading />
+      }
   return (
    <>
        <h2 className='my-5 font-bold text-3xl'>Latest Products</h2>

@@ -17,6 +17,7 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 import Loading from "../../Loading";
 const ProductDetails = () => {
+
   const { id } = useParams();
   const [addFav, setAddFav] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
@@ -51,7 +52,7 @@ const ProductDetails = () => {
             />
             <>
               <Swiper
-                slidesPerView={1}
+                slidesPerView={3}
                 spaceBetween={30}
                 slidesPerGroup={1}
                 loop={true}
@@ -129,7 +130,7 @@ const ProductDetails = () => {
               class=" px-4 flex justify-center items-center py-2 border-2 border-red-600  font-medium text-lg leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
             >
               <FontAwesomeIcon
-                className={`${addFav ? "text-red-600" : "text-gray-500"}`}
+                className={`${addFav ? "text-red-600" : "text-gray-300"}`}
                 icon={faHeart}
               />
             </button>
@@ -156,6 +157,10 @@ const ProductDetails = () => {
           <div className="mt-5">
             <span className="font-semibold"> Description :</span>
             <p>{product.desc}</p>
+          </div>
+
+          <div className="mt-5">
+            <p className="font-semibold">In stoke : <span className={`${product.stoke !== 'Sold Out' ? 'bg-green-500 text-white p-1 rounded-sm' : 'bg-red-500 text-white p-1 rounded-sm'} font-medium `}>{product.stoke}</span></p>
           </div>
         </div>
       </div>
