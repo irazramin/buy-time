@@ -17,11 +17,10 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 import Loading from "../../Loading";
 const ProductDetails = () => {
-
   const { id } = useParams();
   const [addFav, setAddFav] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
-
+  const [cartQ,setCartQ] = useState(0)
   const {
     data: product,
     isLoading,
@@ -30,8 +29,8 @@ const ProductDetails = () => {
     fetch(`http://localhost:5000/api/watches/${id}`).then((res) => res.json())
   );
 
-  if(isLoading){
-    return <Loading />
+  if (isLoading) {
+    return <Loading />;
   }
   return (
     <div className="2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto my-20">
@@ -111,6 +110,14 @@ const ProductDetails = () => {
             </p>
           </div>
 
+          <div className="flex justify-start items-center my-5">
+            <div className="flex justify-start items-center border gap-3 p-[2px]">
+              <button onClick={() => cartQ <= 0 ? 1 : setCartQ(cartQ-1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300">-</button>
+              <input value={cartQ} className="border-[2px] w-[60px]" type="text" />
+              <button onClick={() => cartQ >= 10 ? 10 : setCartQ(cartQ+1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300">+</button>
+            </div>
+          </div>
+
           <div className="gap-2 flex mt-5">
             <button
               type="button"
@@ -160,7 +167,18 @@ const ProductDetails = () => {
           </div>
 
           <div className="mt-5">
-            <p className="font-semibold">In stoke : <span className={`${product.stoke !== 'Sold Out' ? 'bg-green-500 text-white p-1 rounded-sm' : 'bg-red-500 text-white p-1 rounded-sm'} font-medium `}>{product.stoke}</span></p>
+            <p className="font-semibold">
+              In stoke :{" "}
+              <span
+                className={`${
+                  product.stoke !== "Sold Out"
+                    ? "bg-green-500 text-white p-1 rounded-sm"
+                    : "bg-red-500 text-white p-1 rounded-sm"
+                } font-medium `}
+              >
+                {product.stoke}
+              </span>
+            </p>
           </div>
         </div>
       </div>
