@@ -59,7 +59,7 @@ const ProductDetails = () => {
   }
   return (
     <div className="2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto my-20">
-      <div className="grid grid-cols-12 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
         <div className="col-span-5 ">
           <div className="border">
             <img
@@ -142,7 +142,7 @@ const ProductDetails = () => {
               <button onClick={() => cartQ >= 10 ? 10 : setCartQ(cartQ+1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300"><FontAwesomeIcon icon={faPlus} /></button>
             </div>
           </div>
-          
+
           <div className="gap-2 flex mt-5">
             <button
               type="button"

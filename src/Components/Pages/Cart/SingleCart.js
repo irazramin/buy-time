@@ -1,7 +1,18 @@
 import React from 'react'
-import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { faPlus, faMinus, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SingleCart = ({cart,inscreaseQuantity,decreaseQuantity,cartQ}) => {
+
+
+    const deleteCartItem = id =>{
+        fetch(`http://localhost:5000/api/addtocart/${id}`,{
+            method:"DELETE"
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+        })
+    }
   return (
     <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
@@ -48,6 +59,10 @@ const SingleCart = ({cart,inscreaseQuantity,decreaseQuantity,cartQ}) => {
                         <td class="text-sm text-gray-900  px-6 py-4 whitespace-nowrap  font-bold">
                           ৳ {cart.price * cart.quantity}
                         </td>
+
+                        <div className='mt-3 mr-3 cursor-pointer'>
+                            <button onClick={() => deleteCartItem(cart._id)}><FontAwesomeIcon icon={faTimes} className='text-xl' /></button>
+                        </div>
                       </tr>
   )
 }

@@ -23,7 +23,7 @@ const Product = ({product}) => {
             <div className=' w-full h-full absolute left-0 top-0 show-panel text-center hover:bg-[rgba(255,255,255,.4)]'>
               <div className='absolute bottom-0 panel-items  w-full'>
                   <div className='w-full mx-auto'>
-                     <div className='gap-2 mx-1 flex justify-center shadow-sm '>
+                     <div className='gap-2 mx-1 flex flex-wrap justify-center shadow-sm '>
                          <div className='bg-black  hover:opacity-50 active:scale-110 duration-300 flex justify-center items-center'>
                              <button className='p-2 flex justify-center items-center' onClick={addToFavorite}>
                                  <FontAwesomeIcon icon={faHeart} className={`${addFavorite ? 'text-red-500' : 'text-white'} text-xl `} type="regular" />
