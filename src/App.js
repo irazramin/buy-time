@@ -6,6 +6,7 @@ import Header from './Components/Shared/Header';
 import SearchBar from './Components/Shared/SearchBar';
 import TopNav from './Components/Shared/TopNav';
 import ProductDetails from "./Components/Shared/Product/productDetails/ProductDetails";
+import ViewCart from './Components/Pages/Cart/ViewCart';
 function App() {
   return (
     <div className="">
@@ -16,7 +17,7 @@ function App() {
           <Route path='/'  element={<Home/>}/>
           <Route path='/categories'  element={<Categories/>}/>
           <Route path='/productDetails/:id'  element={<ProductDetails/>}/>
-          {/* <Route path='productDetails/:id'  element={<ProductDetails/>}/> */}
+          <Route path='/viewCart'  element={<ViewCart/>}/>
 
         </Routes>
     </div>

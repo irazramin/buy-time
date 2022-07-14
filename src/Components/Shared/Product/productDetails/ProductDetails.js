@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping, faHeart, faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useQuery } from "react-query";
@@ -20,7 +20,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const [addFav, setAddFav] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
-  const [cartQ,setCartQ] = useState(0)
+  const [cartQ,setCartQ] = useState(1)
   const {
     data: product,
     isLoading,
@@ -31,6 +31,31 @@ const ProductDetails = () => {
 
   if (isLoading) {
     return <Loading />;
+  }
+
+  const cartProductDetails = {
+    name:product.name,
+    price: product.price,
+    quantity:cartQ,
+    color:product.color,
+    img: (activeSlide === 4 || activeSlide === 3) && product.img
+    ? product.img
+    : activeSlide === 5 && product.img2
+    ? product.img2
+    : product.img3 && product.img3
+  }
+
+  const handleAddToCart = () => {
+    fetch(`http://localhost:5000/api/addtocart`,{
+      method:"POST",
+      "headers":{
+        "Content-type":"application/json"
+      },body:JSON.stringify(cartProductDetails)
+    })
+    .then(res => res.json())
+    .then(data =>{
+      console.log(data)
+    })
   }
   return (
     <div className="2xl:w-[65%] md:w-[85%] sm:w-[90%] mx-auto my-20">
@@ -112,12 +137,12 @@ const ProductDetails = () => {
 
           <div className="flex justify-start items-center my-5">
             <div className="flex justify-start items-center border gap-3 p-[2px]">
-              <button onClick={() => cartQ <= 0 ? 1 : setCartQ(cartQ-1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300">-</button>
+              <button onClick={() => cartQ <= 0 ? 1 : setCartQ(cartQ-1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300"> <FontAwesomeIcon icon={faMinus} /> </button>
               <input value={cartQ} className="border-[2px] w-[60px]" type="text" />
-              <button onClick={() => cartQ >= 10 ? 10 : setCartQ(cartQ+1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300">+</button>
+              <button onClick={() => cartQ >= 10 ? 10 : setCartQ(cartQ+1)} className="bg-slate-200 py-1 px-5 active:scale-90 duration-300"><FontAwesomeIcon icon={faPlus} /></button>
             </div>
           </div>
-
+          
           <div className="gap-2 flex mt-5">
             <button
               type="button"
@@ -126,6 +151,7 @@ const ProductDetails = () => {
               Buy now
             </button>
             <button
+            onClick={handleAddToCart}
               type="button"
               class="inline-block px-6 py-2 border-2 border-red-600 text-red-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
             >

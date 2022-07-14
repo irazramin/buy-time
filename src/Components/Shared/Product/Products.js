@@ -4,16 +4,6 @@ import Loading from '../Loading';
 import Product from "./Product";
 import { useQuery } from 'react-query';
 const Products = () => {
-    // const [products,setProducts] = useState([]);
-
-
-    // useEffect(() =>{
-    //     fetch(`http://localhost:5000/api/watches`)
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             setProducts(data)
-    //         })
-    // },[]);
 
     const {products,isLoading} = useProduct()
 
