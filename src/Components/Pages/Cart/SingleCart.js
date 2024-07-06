@@ -5,13 +5,13 @@ const SingleCart = ({cart,inscreaseQuantity,decreaseQuantity,cartQ}) => {
 
 
     const deleteCartItem = id =>{
-        fetch(`http://localhost:5000/api/addtocart/${id}`,{
-            method:"DELETE"
-        })
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-        })
+        // fetch(`http://localhost:5000/api/addtocart/${id}`,{
+        //     method:"DELETE"
+        // })
+        // .then(res => res.json())
+        // .then(data => {
+        //     console.log(data)
+        // })
     }
   return (
     <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
@@ -40,7 +40,7 @@ const SingleCart = ({cart,inscreaseQuantity,decreaseQuantity,cartQ}) => {
                                 <FontAwesomeIcon icon={faMinus} />{" "}
                               </button>
                               <input
-                                value={cartQ ? cartQ : cart.quantity}
+                                // value={cartQ ? cartQ : cart.quantity}
                                 className="border-[2px] w-[40px]"
                                 type="text"
                               />
@@ -54,14 +54,14 @@ const SingleCart = ({cart,inscreaseQuantity,decreaseQuantity,cartQ}) => {
                           </div>
                         </td>
                         <td class="text-sm text-gray-900  px-6 py-4 whitespace-nowrap font-bold">
-                          ৳ {cart.price}
+                          ৳ {0}
                         </td>
                         <td class="text-sm text-gray-900  px-6 py-4 whitespace-nowrap  font-bold">
-                          ৳ {cart.price * cart.quantity}
+                          ৳ {0}
                         </td>
 
                         <div className='mt-3 mr-3 cursor-pointer'>
-                            <button onClick={() => deleteCartItem(cart._id)}><FontAwesomeIcon icon={faTimes} className='text-xl' /></button>
+                            <button onClick={() => deleteCartItem(0)}><FontAwesomeIcon icon={faTimes} className='text-xl' /></button>
                         </div>
                       </tr>
   )

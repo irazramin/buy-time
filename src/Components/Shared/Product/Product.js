@@ -8,7 +8,7 @@ import { useNavigate} from "react-router-dom";
 
 const Product = ({product}) => {
     const navigate = useNavigate();
-    const {img,name,price,rating,_id} = product;
+    // const {img,name,price,rating,_id} = product;
     const [addFavorite,setAddFavorite] = useState(false);
     // console.log(product)
 
@@ -19,7 +19,7 @@ const Product = ({product}) => {
   return (
     <article  className=' w-full cursor-pointer'>
         <div className='border-[1px] h-[380px] flex items-center justify-center p-4 relative overflow-hidden '>
-            <img className='w-[250px] object-cover  ' src={img} alt="" />
+            <img className='w-[250px] object-cover  ' src="" alt="" />
             <div className=' w-full h-full absolute left-0 top-0 show-panel text-center hover:bg-[rgba(255,255,255,.4)]'>
               <div className='absolute bottom-0 panel-items  w-full'>
                   <div className='w-full mx-auto'>
@@ -37,7 +37,7 @@ const Product = ({product}) => {
                          </div>
 
                          <div className='bg-black flex justify-center items-center hover:opacity-50 active:scale-110 duration-300'>
-                             <button onClick={() =>  navigate(`/productDetails/${_id}`)} className='px-2 py-2 text-white'>
+                             <button onClick={() =>  navigate(`/productDetails/1`)} className='px-2 py-2 text-white'>
                                  Buy now
                              </button>
                          </div>
@@ -47,14 +47,14 @@ const Product = ({product}) => {
             </div>
         </div>
         <div>
-            <h4 className='mt-2 text-sm'>{name}</h4>
+            <h4 className='mt-2 text-sm'>eww</h4>
             <div className='flex justify-between items-center'>
-                <p className='font-bold text-gray-900'>${price}</p>
+                <p className='font-bold text-gray-900'>${0}</p>
 
                 <ReactStars
                     count={5}
                     // onChange={ratingChanged}
-                    value={rating}
+                    value={3}
                     size={22}
                     activeColor="rgb(239 68 68)"
                     edit={false}
